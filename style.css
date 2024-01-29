@@ -97,6 +97,15 @@ img {
     box-sizing: border-box;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+@media (min-width: 1600px) {
+    .sign-up {
+        font-size: 24px;
+        padding: 14px;
+        width: 150px;
+    }
 }
 
 /* RANDOM SECTION */
