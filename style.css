@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, button {
@@ -92,9 +93,9 @@ img {
     border-radius: 10px;
     border: none;
     width: 120px;
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -109,7 +110,8 @@ img {
 }
 
 .random h2 {
-    font-size: 48px;
+    font-size: 36px;
+    margin: 40px 0px;
 }
 
 .thumbnails {
@@ -151,7 +153,7 @@ img {
     font-size: 42px;
     font-style: italic;
     color: #676767;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .credit {
@@ -159,4 +161,48 @@ img {
     font-weight: bold;
     text-align: right;
     padding-right: 50px;
+}
+
+/* ACTION SECTION */
+
+.action {
+    padding: 100px 200px;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 120px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 80%;
+}
+
+.banner-button {
+    width: 20%;
+}
+
+.banner-button .sign-up {
+    background-color: #3882f6;
+    border: 3px solid white;
+    color: inherit;
+}
+
+.banner-text #one {
+    font-size: 32px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.banner-text #two {
+    font-size: 24px;
+    color: inherit;
 }
