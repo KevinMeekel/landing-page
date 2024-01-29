@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, button {
 .intro {
     display: flex;
     flex-direction: column;
-    padding: 0px 20vw;
+    padding: 0px 15vw;
     background-color: #1f2937;
     padding-bottom: 90px;
 }
@@ -70,6 +70,10 @@ a {
     margin-bottom: 0px;
 }
 
+.awesome p {
+    font-size: 18px;
+}
+
 .awesome button {
     background-color: #3882f6;
 }
@@ -91,4 +95,44 @@ img {
     box-sizing: border-box;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* RANDOM SECTION */
+
+.random {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30vw;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.random h2 {
+    font-size: 48px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 0px;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    border: 4px solid rgb(8, 147, 207);
+    border-radius: 15px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #676767;
+    text-align: center;
 }
